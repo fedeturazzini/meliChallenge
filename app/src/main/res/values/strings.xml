@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ChallengeMeli</string>
+    <string name="pesos_ARS">$ </string>
+    <string name="searchMeli">Buscar en Mercado libre</string>
+    <string name="searchErrorTitle">No encontramos publicaciones</string>
+    <string name="searchErrorSubTitle">Revisa que la palabra esté bien escrita. También puedes probar con menos términos o más generales.</string>
+    <string name="comprarProduct">Comprar</string>
+    <string name="agregarAlCarrito">Agregar al carrito</string>
+    <string name="NetworkErrorTitle">¡Oh, no! ¿No hay internet?</string>
+    <string name="NetworkErrorSubTitle">Revisa tu conexión, por favor.</string>
+    <string name="loremexample">Lorem ipsum dolor sit amet consectetur adipiscing elit praesent, phasellus interdum dui nisl maecenas litora platea vulputate nunc, integer potenti morbi sociis lobortis et leo. Suscipit facilisis mus euismod dignissim himenaeos hac vehicula, dictumst aliquet libero nascetur duis blandit neque luctus, massa ad eleifend velit eget pellentesque. Vitae vehicula laoreet volutpat nibh nisl gravida mauris litora, vel enim pretium odio ullamcorper sem a vivamus risus, ac phasellus sagittis feugiat aptent habitant mi.</string>
+</resources>

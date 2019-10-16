@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="ProductTitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/robotolight</item>
+        <item name="android:lines">2</item>
+    </style>
+
+    <style name="ProductSubTitle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/robotolight</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="ProductPrice">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/robotobold</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="ProductCondition">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/robotothin</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="ProductMercadoPago">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/robotothin</item>
+        <item name="android:textColor">@color/colorGreen</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="SearchTitle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/robotothin</item>
+        <item name="android:lines">1</item>
+    </style>
+</resources>
