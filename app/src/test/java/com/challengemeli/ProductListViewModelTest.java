@@ -17,7 +17,6 @@ import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import io.reactivex.Scheduler;
 import io.reactivex.Single;
@@ -39,8 +38,9 @@ public class ProductListViewModelTest {
     private Single <Results> testSingleProduct;
 
     @Before
-    public void setup () {
+    public void setUp () {
         MockitoAnnotations.initMocks(this);
+        setUpRxSchedulers();
     }
 
     @Test
@@ -79,7 +79,6 @@ public class ProductListViewModelTest {
 
 
     // Se ejecuta antes de todos los single test
-    @Before
     public void setUpRxSchedulers () {
         Scheduler immediate = new Scheduler() {
             @Override
@@ -91,6 +90,9 @@ public class ProductListViewModelTest {
         };
 
         RxJavaPlugins.setInitIoSchedulerHandler(schedulerCallable -> immediate);
-        RxAndroidPlugins.setInitMainThreadSchedulerHandler(schedulerCallable -> immediate);
+        RxJavaPlugins.setInitComputationSchedulerHandler (scheduler -> immediate);
+        RxJavaPlugins.setInitNewThreadSchedulerHandler (scheduler -> immediate );
+        RxJavaPlugins.setInitSingleSchedulerHandler (scheduler -> immediate);
+        RxAndroidPlugins.setInitMainThreadSchedulerHandler (scheduler -> immediate);
     }
 }

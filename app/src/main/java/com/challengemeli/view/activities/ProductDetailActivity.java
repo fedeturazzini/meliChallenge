@@ -1,7 +1,6 @@
 package com.challengemeli.view.activities;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -72,13 +71,9 @@ public class ProductDetailActivity extends AppCompatActivity {
         productAdress.setText(product.getAddress().getCityName() + " - " + product.getAddress().getStateName());
         productShipping.setText(product.getShipping().isFreeShipping() ? "Envio gratis" : "Coordina el envio con el vendedor");
 
-        buttonComprar.setOnClickListener(view -> {
-            Toast.makeText(this, "Compraste correctamente", Toast.LENGTH_SHORT).show();
-        });
+        buttonComprar.setOnClickListener(view -> Toast.makeText(this, "Compraste correctamente", Toast.LENGTH_SHORT).show());
 
-        buttonAgregarAlCarrito.setOnClickListener(view -> {
-            Toast.makeText(this, "Agregado al carrito correctamente", Toast.LENGTH_SHORT).show();
-        });
+        buttonAgregarAlCarrito.setOnClickListener(view -> Toast.makeText(this, "Agregado al carrito correctamente", Toast.LENGTH_SHORT).show());
 
     }
 

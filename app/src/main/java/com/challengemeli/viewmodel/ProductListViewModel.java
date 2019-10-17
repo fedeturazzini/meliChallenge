@@ -3,11 +3,8 @@ package com.challengemeli.viewmodel;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.challengemeli.model.services.ProductService;
-import com.challengemeli.model.pojo.Product;
 import com.challengemeli.model.pojo.Results;
-
-import java.util.List;
+import com.challengemeli.model.services.ProductService;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
@@ -55,7 +52,6 @@ public class ProductListViewModel extends ViewModel {
                                 productLoadError.setValue(true);
                                 loading.setValue(false);
                                 searchError.setValue(false);
-                                e.printStackTrace();
                             }
                         })
         );
