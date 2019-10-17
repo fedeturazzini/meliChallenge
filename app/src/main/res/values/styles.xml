@@ -10,14 +10,28 @@
 
 
     <style name="ProductTitle">
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">13sp</item>
         <item name="android:textStyle">normal</item>
-        <item name="android:fontFamily">@font/robotolight</item>
+        <item name="android:fontFamily">@font/robotoblack</item>
+        <item name="android:lines">2</item>
+    </style>
+
+    <style name="ProductTitleDetail">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/robotoblack</item>
         <item name="android:lines">2</item>
     </style>
 
     <style name="ProductSubTitle">
         <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">@font/robotolight</item>
+        <item name="android:lines">1</item>
+    </style>
+
+    <style name="ProductAdress">
+        <item name="android:textSize">17sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:fontFamily">@font/robotolight</item>
         <item name="android:lines">1</item>
@@ -30,15 +44,22 @@
         <item name="android:lines">1</item>
     </style>
 
+    <style name="ProductPriceDetail">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/robotobold</item>
+        <item name="android:lines">1</item>
+    </style>
+
     <style name="ProductCondition">
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">13sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:fontFamily">@font/robotothin</item>
         <item name="android:lines">1</item>
     </style>
 
     <style name="ProductMercadoPago">
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">13sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:fontFamily">@font/robotothin</item>
         <item name="android:textColor">@color/colorGreen</item>

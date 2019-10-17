@@ -68,14 +68,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/loremexample"
-                    style="@style/ProductTitle"/>
+                    style="@style/ProductTitleDetail"/>
 
                 <TextView
                     android:id="@+id/productPrice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="$ 4500"
-                    style="@style/ProductPrice"/>
+                    style="@style/ProductPriceDetail"/>
 
                 <TextView
                     android:id="@+id/productShipping"
@@ -89,7 +89,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Adress"
-                    style="@style/ProductSubTitle"/>
+                    style="@style/ProductAdress"/>
 
                 <TextView
                     android:id="@+id/productMercadoPago"
