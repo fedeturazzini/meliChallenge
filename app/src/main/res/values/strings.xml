@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ChallengeMeli</string>
+    <string name="app_name">Challenge MELI</string>
     <string name="pesos_ARS">$ </string>
     <string name="searchMeli">Buscar en Mercado libre</string>
     <string name="searchErrorTitle">No encontramos publicaciones</string>
