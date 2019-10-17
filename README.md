@@ -8,4 +8,4 @@ Lenguaje: JAVA.
 
 Patrón de diseño: MVVM.
 
-Librerias utilizadas: Retrofit + OkHttp, Stetho, Glide, Mockito.
+Librerias utilizadas: Retrofit + OkHttp, Stetho, Glide, Mockito, Lottie, Butterknife.
